@@ -7787,6 +7787,13 @@ RtlFreeAnsiString(
 );
 
 NTSYSAPI
+VOID
+NTAPI
+RtlFreeUnicodeString(
+    _Inout_ PUNICODE_STRING UnicodeString
+);
+
+NTSYSAPI
 NTSTATUS
 NTAPI
 RtlDefaultNpAcl(
